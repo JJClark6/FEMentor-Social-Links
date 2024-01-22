@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&family=Roboto:wght@400;500&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(26, 26, 26);
+    font-family: 'Roboto', 'Poppins';
+    color: #fff;
+}
+
+section {
+    background-color: rgb(64, 64, 64);
+}
+
+.container {
+    width: 30%;
+    margin: auto;
+    margin-top: 10rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 10rem;
+}
+
+.container img {
+    width: 100px;
+    border-radius: 100%;
+}
+
+.container .name {
+    padding-top: 1rem;
+    font-weight: 500;
+}
+
+.container .location {
+    color: rgb(255, 255, 0);
+    padding-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.container .position {
+    font-size: 0.9rem;
+    padding-bottom: 1rem;
+}
+
+.container .link {
+    display: block;
+    padding: 1rem 3rem;
+    border-radius: 15px;
+    background-color: rgb(97, 102, 98);
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    transition: all 0.5s ease;
+}
+
+.container .link:hover {
+    color: black;
+    background-color: rgb(255, 255, 0);
+}
+
+/* Responsive */
+
+@media (max-width: 700px) {
+    .container {
+        width: 60%;
+       
+    }
+}
+
+@media (max-width: 800px) {
+    .container {
+        width: 60%;
+        
+    }
+}
+
+
+
+
